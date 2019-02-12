@@ -5,7 +5,7 @@ connectButton.addEventListener('click', onClickConnect)
 
 function onClickConnect() {
   beep(100, 520, 200)
-  // alert("ERROR: Connection impossible at this time.")
+  alert("ERROR: Connection impossible at this time.")
 }
 
 function beep(vol, freq, duration) {
